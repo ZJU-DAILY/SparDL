@@ -14,13 +14,21 @@ Top-k sparsification has recently been widely used to reduce the communication v
 
 ## Models and Datasets
 
-We use four deep learning models, VGG-16, VGG-19, ResNet-20, LSTM, and three datasets as four different learning tasks.
+We use seven deep learning models, VGG-16, VGG-19, ResNet-50, VGG-11, LSTM-IMDB, LSTM-PTB, BERT, and seven datasets as five different learning tasks.
 
 CIFAR-10 : Download from https://pytorch.org/vision/stable/datasets.html#cifar
 
 CIFAR-100 : Download from https://pytorch.org/vision/stable/datasets.html#cifar
 
-IMDB : Download from http://ai.stanford.edu/~amaas/data/sentiment/index.html
+ImageNet : Download from http://www.image-net.org/challenges/LSVRC/2012/2012-downloads
+
+House : Download from https://github.com/emanhamed/Houses-dataset
+
+IMDB : Download from https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
+
+PTB : Download from http://www.fit.vutbr.cz/∼imikolov/rnnlm/
+
+Wikipedi : Download from https://github.com/microsoft/AzureML-BERT/blob/master/pretrain/PyTorch/notebooks/BERT_Pretrain.ipynb
 
 ## Quick Start
 
